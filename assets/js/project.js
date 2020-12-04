@@ -3,100 +3,36 @@
 const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
-    title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
+    title: "COVID-19 diagnose Web App",
+    cardImage: "https://user-images.githubusercontent.com/35682236/90317645-e4b54f80-df65-11ea-9ed0-3498f6373263.png",
     description:
-      "A quiz app built using basic react.",
+      "An website for diagnosing contagious disease from symptoms written in natural language.",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/kjsu0209/COVID-19-Self-Diagnosis-Web",
   },
   {
-    title: "Chess Engine",
-    cardImage: "assets/images/project-page/chess.jpg",
+    title: "Wenekids",
+    cardImage: "https://user-images.githubusercontent.com/35682236/93216870-363e3d80-f7a3-11ea-8230-5676355b0cdf.png",
     description:
-      "A chess engine for a popular game dev engine.",
+      "Kindergarten Safety Solution",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/kjsu0209/wenekids2019",
   },
   {
-    title: "Flappy Bird",
-    cardImage: "assets/images/project-page/flappybird.png",
+    title: "Emergency Monitoring System",
+    cardImage: "https://user-images.githubusercontent.com/35682236/94449561-2d0f9080-01e7-11eb-9de3-fe8f74a01541.png",
     description:
-      "Flappy bird game built using React.js",
+      "Smart emergency monitoring system and smart wristband for a quick emergency call.",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/kjsu0209/TatataNodeAPI",
   },
   {
-    title: "Exercise Tracker",
-    cardImage: "assets/images/project-page/exercise.jpg",
+    title: "Authendance",
+    cardImage: "https://github.com/higgs165/Authendance/raw/master/Screenshots/loginscreen.jpg",
     description:
-      "Exercise tracker built using basic redux.",
+      "Android student attendance tracker app with QR code implementation, built with Java in Android Studio.",
     Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Recipe Ingredient Parser",
-    cardImage: "assets/images/project-page/recipe.jpg",
-    description:
-      "Recipe Ingredient Parser built using JavaScript.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Poker Game",
-    cardImage: "assets/images/project-page/poker.jpg",
-    description:
-      "Poker game built using typescript.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Tic Tac Toe Game",
-    cardImage: "assets/images/project-page/tic-tac-toe.png",
-    description:
-      "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Personal Book Library",
-    cardImage: "assets/images/project-page/book.png",
-    description:
-      "Personal book library app built using JavaScript.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Minesweeper Game",
-    cardImage: "assets/images/project-page/minesweeper.jpg",
-    description:
-      "Minesweeper Game built using python Object Oriented Programming.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Battery Life Calculator",
-    cardImage: "assets/images/project-page/battery.png",
-    description:
-      "Built battery life calculator using Python.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Movie Recommendation System",
-    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-    description:
-      "Movie Recommendation System built using Tensorflow.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Music Recommendation Engine",
-    cardImage: "assets/images/project-page/music.jpg",
-    description:
-      "Music Recommendation Engine built using Python.",
-    Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/higgs165/Authendance",
   },
 ];
 
